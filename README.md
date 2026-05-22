@@ -9,8 +9,6 @@ A modern, highly interactive, and pixel-perfect hero section built for a legal d
 
 ## 📸 Previews
 
-*(Note: Add your screenshot images to a `public` or `docs` folder in your repo, then update these image paths)*
-
 ### Light Theme
 <img width="1919" height="966" alt="Screenshot 2026-05-22 214527" src="https://github.com/user-attachments/assets/f7d4c56e-8786-4ef5-870d-8220d902d645" />
 
@@ -49,7 +47,6 @@ A modern, highly interactive, and pixel-perfect hero section built for a legal d
 To run this project locally, follow these steps:
 
 ### 1. Clone the repository
-```bash
 git clone [https://github.com/Lalit-Kumar-Yadav-DTU/legal-hero-task.git](https://github.com/Lalit-Kumar-Yadav-DTU/legal-hero-task.git)
 cd legal-hero-task
 2. Install dependencies
