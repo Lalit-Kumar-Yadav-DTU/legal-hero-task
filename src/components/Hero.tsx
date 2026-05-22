@@ -16,7 +16,7 @@ export function Hero() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden flex items-center transition-colors duration-500 bg-[#F6F8FB] dark:bg-[#0B0F1A]">
+    <div className="relative min-h-screen w-full overflow-hidden flex items-center transition-colors duration-500 bg-[#F6F8FB] dark:bg-[#0B0F1A] px-6 lg:px-20">
       
       {/* Theme Toggle Button */}
       {mounted && (
@@ -44,14 +44,14 @@ export function Hero() {
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="w-full z-10 lg:pl-4 xl:pl-30 lg:-translate-y-40"
+          className="w-full z-10 lg:pl-4 xl:pl-30 lg:-translate-y-40 mt-20 lg:mt-0"
         >
-          <h1 className="text-5xl lg:text-[50px] xl:text-[58px] font-medium tracking-tight text-[#6B728E] dark:text-gray-400 leading-[1.15] whitespace-nowrap transition-colors duration-500">
-            A single platform to <br />
-            <span className="text-[#5B5B8E] dark:text-[#8E8EBE] font-bold">manage</span> every part of <br />
+          <h1 className="text-4xl md:text-5xl lg:text-[50px] xl:text-[58px] font-medium tracking-tight text-[#6B728E] dark:text-gray-400 leading-[1.15] whitespace-normal md:whitespace-nowrap transition-colors duration-500">
+            A single platform to <br className="hidden md:block" />
+            <span className="text-[#5B5B8E] dark:text-[#8E8EBE] font-bold">manage</span> every part of <br className="hidden md:block" />
             your <span className="text-[#5B5B8E] dark:text-[#8E8EBE] font-bold">legal work</span>
           </h1>
-          <p className="mt-6 text-[17px] text-[#2548FF] dark:text-blue-400 max-w-[420px] leading-relaxed pr-4 whitespace-normal transition-colors duration-500">
+          <p className="mt-6 text-[16px] md:text-[17px] text-[#2548FF] dark:text-blue-400 max-w-[420px] leading-relaxed pr-4 whitespace-normal transition-colors duration-500">
             Track matters, coordinate schedules, manage clients, centralize documents, and handle communication - all in one system.
           </p>
         </motion.div>
@@ -104,7 +104,7 @@ export function Hero() {
         </div>
 
         {/* Mobile Responsive Version */}
-        <div className="flex flex-wrap justify-center gap-4 mt-10 lg:hidden">
+        <div className="flex flex-wrap justify-start gap-3 mt-10 mb-20 lg:hidden w-full">
           <div className="px-6 py-3 rounded-full bg-[#3652FF] text-white font-semibold shadow-lg transition-colors duration-500">Billing</div>
           <div className="px-6 py-3 rounded-full bg-[#DC7A31] text-white font-semibold shadow-lg transition-colors duration-500">Matters</div>
           <div className="px-6 py-3 rounded-full bg-[#A5ADEE] dark:bg-[#2D346D] text-gray-900 dark:text-white font-semibold shadow-lg transition-colors duration-500">John Doe Portal</div>
@@ -115,6 +115,13 @@ export function Hero() {
     </div>
   );
 }
+
+
+
+
+
+
+
 
 
 
