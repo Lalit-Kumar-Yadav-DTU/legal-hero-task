@@ -71,9 +71,12 @@ legal-hero-task/
 │   │   ├── Hero.tsx           # Main layout, positioning logic, and toggle
 │   │   ├── FloatingCard.tsx   # Reusable animated card component
 │   │   └── ThemeProvider.tsx  # next-themes configuration
+
+```
 👨‍💻 Author
-Lalit Kumar Yadav
+Lalit Kumar Yadav, Delhi Technological University DTU ,2026 
+Software Engineering
 
-LinkedIn: [Your LinkedIn Profile URL]
+LinkedIn: https://www.linkedin.com/in/lalit-kumar-yadav-75a804297/
 
-GitHub: @Lalit-Kumar-Yadav-DTU
+GitHub: https://github.com/Lalit-Kumar-Yadav-DTU/legal-hero-task
